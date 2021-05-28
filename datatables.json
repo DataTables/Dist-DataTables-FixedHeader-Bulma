@@ -1,0 +1,15 @@
+{
+    "js": [
+        "js/fixedHeader.bulma.js",
+        "js/fixedHeader.bulma.min.js"
+    ],
+    "css": [
+        "css/fixedHeader.bulma.css",
+        "css/fixedHeader.bulma.min.css"
+    ],
+    "types": [
+        "types/fixedHeader.bulma.d.ts"
+    ],
+    "src-repo": "http://github.com/DataTables/FixedHeader",
+    "last-tag": "3.1.8"
+}
