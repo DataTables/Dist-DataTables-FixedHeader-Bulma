@@ -4,15 +4,15 @@
     "main": "js/fixedHeader.bulma.js",
     "style": "css/fixedHeader.bulma.css",
     "types": "./types/fixedHeader.bulma.d.ts",
-    "version": "3.1.8",
+    "version": "3.1.9",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
     "keywords": [
         "FixedHeader",
- "Fixed Headers",
- "Sticky",
+        "Fixed Headers",
+        "Sticky",
         "Bulma",
         "Datatables",
         "jQuery",
@@ -21,8 +21,6 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-fixedheader": ">=3.1.8",
-        "datatables.net-bm": ">=1.10.24",
         "jquery": ">=1.7"
     },
     "moduleType": [
