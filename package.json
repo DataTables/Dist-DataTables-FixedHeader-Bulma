@@ -4,7 +4,7 @@
     "main": "js/fixedHeader.bulma.js",
     "style": "css/fixedHeader.bulma.css",
     "types": "./types/fixedHeader.bulma.d.ts",
-    "version": "3.2.3",
+    "version": "3.2.4",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
