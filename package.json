@@ -2,12 +2,14 @@
     "name": "datatables.net-fixedheader-bm",
     "description": "FixedHeader for DataTables with styling for [Bulma](https://bulma.io/)",
     "main": "js/fixedHeader.bulma.js",
+    "module": "js/fixedHeader.bulma.mjs",
     "style": "css/fixedHeader.bulma.css",
     "types": "./types/fixedHeader.bulma.d.ts",
     "version": "3.2.4",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [

@@ -1,0 +1,1 @@
+import $ from"jquery";import DataTable from"datatables.net-bm";import DataTable from"datatables.net-fixedheader";export default DataTable;
