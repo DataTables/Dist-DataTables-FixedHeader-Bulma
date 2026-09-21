@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-fixedheader-bm",
     "description": "FixedHeader for DataTables with styling for [Bulma](https://bulma.io/)",
-    "main": "js/fixedHeader.bulma.js",
-    "module": "js/fixedHeader.bulma.mjs",
-    "style": "css/fixedHeader.bulma.css",
+    "main": "./js/fixedHeader.bulma.js",
+    "module": "./js/fixedHeader.bulma.mjs",
+    "style": "./css/fixedHeader.bulma.css",
     "types": "./types/fixedHeader.bulma.d.ts",
     "version": "5.0.0",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "FixedHeader",
@@ -36,5 +35,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/FixedHeader.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/fixedHeader.bulma.d.ts",
+            "import": "./js/fixedHeader.bulma.mjs",
+            "default": "./js/fixedHeader.bulma.mjs",
+            "require": "./js/fixedHeader.bulma.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/fixedHeader.bulma.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
