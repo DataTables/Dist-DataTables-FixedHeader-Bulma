@@ -39,9 +39,10 @@
     "exports": {
         ".": {
             "types": "./types/fixedHeader.bulma.d.ts",
+            "style": "./css/fixedHeader.bulma.css",
             "import": "./js/fixedHeader.bulma.mjs",
-            "default": "./js/fixedHeader.bulma.mjs",
-            "require": "./js/fixedHeader.bulma.js"
+            "require": "./js/fixedHeader.bulma.js",
+            "default": "./js/fixedHeader.bulma.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
